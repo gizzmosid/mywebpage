@@ -1,1 +1,121 @@
-# mywebpage
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my website.css">
+    
+    <title>SM</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="logo.png" alt="logo"></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#welcome">About</a></li>
+            
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="section">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <div class="wrapper">
+                    <div class="static-txt">I am a</div>
+                    <ul class="dynamic-txts">
+                      <li><span>Designer</span></li>
+                      <li><span>Content Writer</span></li>
+                      <li><span>Photographer</span></li>
+                
+                      <li><span>Web devloper</span></li>
+                    </ul>
+                  </div>
+                <p class="text-small">Hello,My name is Siddharth Majumdar, And Currently i am in my first year pursueing mechanical Enginnering from NSUT</p>
+                <div class="buttons">
+                    <a href="https://gizzmotez.com/" id="blog">
+                    <button class="btn" 
+                    >My Blog Page</button></a>
+                    
+                    <button class="btn">My Github Profile</button>
+
+                </div>
+            </div>
+
+            <div class="secondHalf">
+                <img src="cover 1 (2).jpg" alt=" Image 1">
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        
+        <div class="paras">
+        <p class="sectionTag text-big">welcome to my website</p>
+        <p class="sectionSubTag text-small">Welcome to the team! We are thrilled to have you at our office. You're going to be a valuable asset to our company, and we can't wait to see all that you accomplish. The entire team of [name of the company] is thrilled to welcome you on board. We hope you'll do some amazing works here! </p>
+        </div>
+        <div class="thumbnail">
+            <img src="nag.JPG" alt=" image" class="imgFluid">
+        
+    </div>
+    </section>
+
+    <section class="section section-left" id="graphics">
+        <div class="paras">
+        <p class="sectionTag text-big">Graphic design</p>
+        <p class="sectionSubTag text-small">Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience</p>
+        </div>
+        <div class="thumbnail">
+            <img src="cover 1 (3).jpg" alt="image" class="imgFluid">
+        </div> 
+    </section>
+    <section class="section" id="webd">
+        <div class="paras">
+        <p class="sectionTag text-big">Web devlopment</p>
+        <p class="sectionSubTag text-small">Web developers design and create websites. They are responsible for the look of the site. They are also responsible for the site's technical aspects, such as its performance and capacity, which are measures of a website's speed and how much traffic the site can handle.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="webd.jpg" alt="image" class="imgFluid">
+        </div> 
+    </section>
+    <section class="section section-left " id="writer">
+        <div class="paras">
+        <p class="sectionTag text-big">Content Writer</p>
+        <p class="sectionSubTag text-small">The job of a content writer is to create print and digital content for companies that provides information or showcases the products or services they offer. To develop content that accurately reflects company ideals, content writers often research the material they need to write each article or product description.</p>
+         <div class="thumbnail ">
+            <img src="paper.jpg" alt=" image" class="imgFluid"
+            >
+        </div>
+     
+    <section class="contact" id="contact">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your name">
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email">
+             <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+            <button class="btn btn-sm btn-dark">Submit</button>
+        </div>
+    </section>
+
+    <footer class="background">
+        <p class="text-footer">
+            Copyright &copy; 2027 - www.knowsidmaj.com - All rights reserved
+        </p>
+    </footer>
+    <script src="js/resp.js"></script>
+
+</body>
+
+</html>
